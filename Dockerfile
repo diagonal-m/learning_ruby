@@ -1,3 +1,4 @@
+# docker run --name ruby-jupyter --rm -v $(pwd):/tmp -p 8000:8000 ruby-jupyter:latest
 FROM python:3.8
 
 # デフォルトの locale `C` を `C.UTF-8` に変更する
